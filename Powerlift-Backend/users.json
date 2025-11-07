@@ -1,0 +1,138 @@
+[
+  {
+    "user_id": "f739630f-4f8b-4605-b051-b38f9a11977f",
+    "username": "euzop",
+    "email": "euzopgt@gmail.com",
+    "password_hash": "scrypt:32768:8:1$U57GMAgXr58wojOm$5eeaa0d6a1f34393ddccb90219de9eb8c95a844c4de9cc496387ccb036985e11f0bd7d7628497fe8b47a1f1ce7133cd3908e00423237c96e6a44c32d36e2c736",
+    "created_at": "2025-07-13T00:52:56.044088",
+    "is_verified": true,
+    "verification_token": null,
+    "verification_token_expiry": null,
+    "first_name": "justine",
+    "last_name": "monke",
+    "person_weight": 70,
+    "barbell_weight": null,
+    "deadlift_weight": 70,
+    "squat_weight": 80,
+    "bench_weight": 52,
+    "progress": [
+      {
+        "exercise_type": "bench",
+        "date": "2025-07-13",
+        "score": 90.16378218081951,
+        "weight_used": "52",
+        "body_weight": "70",
+        "notes": "Analysis ID: 2bedf7de-2c61-4edd-ba16-6f9b18c3cf02",
+        "timestamp": "2025-07-13T23:27:55.191237"
+      },
+      {
+        "exercise_type": "bench",
+        "date": "2025-07-13",
+        "score": 99.1607992628467,
+        "weight_used": "52",
+        "body_weight": "70",
+        "notes": "Analysis ID: d65e4f5b-061a-41b3-8224-5cad6113e02c",
+        "timestamp": "2025-07-13T23:29:42.416544"
+      },
+      {
+        "exercise_type": "bench",
+        "date": "2025-07-13",
+        "score": 100,
+        "weight_used": "52",
+        "body_weight": "70",
+        "notes": "Analysis ID: 90e59137-2910-43e7-bacd-8c62bb01c5bb",
+        "timestamp": "2025-07-13T23:30:34.295845"
+      },
+      {
+        "exercise_type": "bench",
+        "date": "2025-07-13",
+        "score": 74.69484828919619,
+        "weight_used": "52",
+        "body_weight": "70",
+        "notes": "Analysis ID: 3cdb7616-ee30-4817-9ac0-f920caf9b888",
+        "timestamp": "2025-07-13T23:31:52.544777"
+      },
+      {
+        "exercise_type": "squat",
+        "date": "2025-07-13",
+        "score": 87.33434995793279,
+        "weight_used": "80",
+        "body_weight": "70",
+        "notes": "Analysis ID: da62e53e-0a7c-46fa-b7ea-f43f4c04e1dc",
+        "timestamp": "2025-07-13T23:33:10.078052"
+      },
+      {
+        "exercise_type": "deadlift",
+        "date": "2025-07-13",
+        "score": 91.45143022508586,
+        "weight_used": "70",
+        "body_weight": "70",
+        "notes": "Analysis ID: 80f54f59-36c7-4de9-9dde-dc1f12e826e3",
+        "timestamp": "2025-07-13T23:33:54.036734"
+      },
+      {
+        "exercise_type": "deadlift",
+        "date": "2025-07-14",
+        "score": 93.75194560962021,
+        "weight_used": "70",
+        "body_weight": "70",
+        "notes": "Analysis ID: e05e310e-4a08-4487-a19e-3750b6773928",
+        "timestamp": "2025-07-14T13:46:56.126273"
+      },
+      {
+        "exercise_type": "squat",
+        "date": "2025-07-14",
+        "score": 91.45143040527893,
+        "weight_used": "80",
+        "body_weight": "70",
+        "notes": "Analysis ID: 02867bbb-6d18-420a-b0c4-5ad3197118ab",
+        "timestamp": "2025-07-14T14:03:25.119594"
+      },
+      {
+        "exercise_type": "deadlift",
+        "date": "2025-07-14",
+        "score": 79.92102005502852,
+        "weight_used": "70",
+        "body_weight": "70",
+        "notes": "Analysis ID: d942fe91-9592-4267-b755-f2b457b8a108",
+        "timestamp": "2025-07-14T14:05:05.962516"
+      },
+      {
+        "exercise_type": "squat",
+        "date": "2025-07-14",
+        "score": 89.66387379143492,
+        "weight_used": "80",
+        "body_weight": "70",
+        "notes": "Analysis ID: 7e53c3f1-30ab-477e-9b85-3fa3a83ee277",
+        "timestamp": "2025-07-14T14:08:54.889050"
+      },
+      {
+        "exercise_type": "squat",
+        "date": "2025-07-14",
+        "score": 91.8882865905255,
+        "weight_used": "80",
+        "body_weight": "70",
+        "notes": "Analysis ID: c264eb6e-0c85-4858-a859-72aeee4387fa",
+        "timestamp": "2025-07-14T14:21:38.267052"
+      },
+      {
+        "exercise_type": "squat",
+        "date": "2025-07-14",
+        "score": 99.26081815387236,
+        "weight_used": "80",
+        "body_weight": "70",
+        "notes": "Analysis ID: cdc2970a-2069-4634-80de-e6804cafd032",
+        "timestamp": "2025-07-14T14:23:43.109304"
+      },
+      {
+        "exercise_type": "squat",
+        "date": "2025-07-14",
+        "score": 84.51568887541552,
+        "weight_used": "80",
+        "body_weight": "70",
+        "notes": "Analysis ID: 7129d201-850c-45a3-9000-59adcb58e196",
+        "timestamp": "2025-07-14T14:25:57.662780"
+      }
+    ]
+  }
+]

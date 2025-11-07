@@ -1,0 +1,24 @@
+{
+  "retraining_config": {
+    "min_feedback_total": 20,
+    "min_feedback_per_exercise": 5,
+    "retraining_interval_days": 1,
+    "backup_models": true,
+    "auto_retrain_on_startup": true
+  },
+  "model_metadata": {
+    "created": "2025-07-14",
+    "version": 1,
+    "last_retrain": null,
+    "feedback_count_at_retrain": 0,
+    "retrained_exercises": []
+  },
+  "last_retrain": "2025-07-14T15:18:25.862868",
+  "retrained_exercises": [
+    "deadlift",
+    "squat",
+    "bench"
+  ],
+  "feedback_count_at_retrain": 150,
+  "version": 4
+}

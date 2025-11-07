@@ -1,0 +1,29 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background circle -->
+  <circle cx="100" cy="100" r="90" fill="#1E1E1E" stroke="#333333" stroke-width="2"/>
+  
+  <!-- Green glow effect -->
+  <circle cx="100" cy="100" r="85" fill="url(#greenGlow)" fill-opacity="0.3"/>
+  
+  <!-- Barbell icon -->
+  <rect x="40" y="85" width="120" height="10" rx="5" fill="#FFFFFF"/>
+  <circle cx="35" cy="90" r="15" fill="#00FF88" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="165" cy="90" r="15" fill="#00FF88" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="60" cy="90" r="10" fill="#555555" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="140" cy="90" r="10" fill="#555555" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- PowerLift text -->
+  <path d="M45 130 L45 145 Q45 150, 50 150 L65 150 Q70 150, 70 145 L70 130 L65 130 L65 145 Q65 145, 63 145 L52 145 Q50 145, 50 143 L50 130 Z" fill="#FFFFFF"/>
+  <path d="M75 130 L75 150 L80 150 L80 142 L85 142 Q90 142, 90 137 L90 135 Q90 130, 85 130 Z M80 135 L80 137 L85 137 Q85 137, 85 135 L85 135 Q85 135, 80 135 Z" fill="#FFFFFF"/>
+  <path d="M95 130 L95 150 L100 150 L100 142 L103 150 L108 150 L111 142 L111 150 L116 150 L116 130 L109 130 L105.5 140 L102 130 Z" fill="#FFFFFF"/>
+  <path d="M120 130 L120 150 L125 150 L125 143 L130 150 L136 150 L130 142 L136 130 L130 130 L125 140 L125 130 Z" fill="#FFFFFF"/>
+  <path d="M140 130 L140 135 L145 135 L145 150 L150 150 L150 135 L155 135 L155 130 Z" fill="#FFFFFF"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="greenGlow" cx="100" cy="100" r="85" gradientUnits="userSpaceOnUse">
+      <stop offset="0.7" stop-color="#00FF88" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#00FF88" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg> 

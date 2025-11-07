@@ -1,0 +1,287 @@
+{
+  "deadlift": {
+    "model_accuracy": 0.88,
+    "original_accuracy": 0.82,
+    "accuracy_improvement": 0.06000000000000005,
+    "classification_report": {
+      "Poor": {
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.9090909090909091,
+        "support": 6.0
+      },
+      "Good": {
+        "precision": 0.9090909090909091,
+        "recall": 0.8333333333333334,
+        "f1-score": 0.8695652173913043,
+        "support": 12.0
+      },
+      "Needs Improvement": {
+        "precision": 0.7916666666666666,
+        "recall": 1.0,
+        "f1-score": 0.8837209302325582,
+        "support": 19.0
+      },
+      "excellent_form": {
+        "precision": 1.0,
+        "recall": 0.7692307692307693,
+        "f1-score": 0.8695652173913043,
+        "support": 13.0
+      },
+      "accuracy": 0.88,
+      "macro avg": {
+        "precision": 0.9251893939393939,
+        "recall": 0.858974358974359,
+        "f1-score": 0.882985568526519,
+        "support": 50.0
+      },
+      "weighted avg": {
+        "precision": 0.8990151515151514,
+        "recall": 0.88,
+        "f1-score": 0.8796874712749334,
+        "support": 50.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        5,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        10,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        19,
+        0
+      ],
+      [
+        0,
+        1,
+        2,
+        10
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "Poor",
+      "Good",
+      "Needs Improvement",
+      "excellent_form"
+    ],
+    "mean_confidence": 0.42833314080628876,
+    "sample_counts": {
+      "total_samples": 50,
+      "true_label_distribution": {
+        "Poor": 6,
+        "Good": 12,
+        "Needs Improvement": 19,
+        "excellent_form": 13
+      },
+      "predicted_label_distribution": {
+        "Poor": 5,
+        "Good": 11,
+        "Needs Improvement": 24,
+        "excellent_form": 10
+      }
+    },
+    "accuracy": 0.0,
+    "mae": null,
+    "mape": null
+  },
+  "squat": {
+    "model_accuracy": 0.66,
+    "original_accuracy": 0.8,
+    "accuracy_improvement": -0.14,
+    "classification_report": {
+      "Needs Improvement": {
+        "precision": 0.7368421052631579,
+        "recall": 1.0,
+        "f1-score": 0.8484848484848485,
+        "support": 14.0
+      },
+      "Poor": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2.0
+      },
+      "Good": {
+        "precision": 0.6129032258064516,
+        "recall": 0.9047619047619048,
+        "f1-score": 0.7307692307692307,
+        "support": 21.0
+      },
+      "excellent_form": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 13.0
+      },
+      "accuracy": 0.66,
+      "macro avg": {
+        "precision": 0.33743633276740237,
+        "recall": 0.47619047619047616,
+        "f1-score": 0.3948135198135198,
+        "support": 50.0
+      },
+      "weighted avg": {
+        "precision": 0.4637351443123939,
+        "recall": 0.66,
+        "f1-score": 0.5444988344988344,
+        "support": 50.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        14,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        19,
+        0
+      ],
+      [
+        1,
+        0,
+        12,
+        0
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "Needs Improvement",
+      "Poor",
+      "Good",
+      "excellent_form"
+    ],
+    "mean_confidence": 0.5090493239944959,
+    "sample_counts": {
+      "total_samples": 50,
+      "true_label_distribution": {
+        "Needs Improvement": 14,
+        "Poor": 2,
+        "Good": 21,
+        "excellent_form": 13
+      },
+      "predicted_label_distribution": {
+        "Needs Improvement": 19,
+        "Poor": 0,
+        "Good": 31,
+        "excellent_form": 0
+      }
+    },
+    "accuracy": 0.0,
+    "mae": null,
+    "mape": null
+  },
+  "bench": {
+    "model_accuracy": 0.9,
+    "original_accuracy": 0.8,
+    "accuracy_improvement": 0.09999999999999998,
+    "classification_report": {
+      "Poor": {
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "f1-score": 0.9230769230769231,
+        "support": 7.0
+      },
+      "Good": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1-score": 0.8888888888888888,
+        "support": 15.0
+      },
+      "Needs Improvement": {
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1-score": 0.8888888888888888,
+        "support": 20.0
+      },
+      "excellent_form": {
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1-score": 0.9333333333333333,
+        "support": 8.0
+      },
+      "accuracy": 0.9,
+      "macro avg": {
+        "precision": 0.95,
+        "recall": 0.8830357142857143,
+        "f1-score": 0.9085470085470086,
+        "support": 50.0
+      },
+      "weighted avg": {
+        "precision": 0.92,
+        "recall": 0.9,
+        "f1-score": 0.9007863247863248,
+        "support": 50.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        6,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        12,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        20,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        7
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "Poor",
+      "Good",
+      "Needs Improvement",
+      "excellent_form"
+    ],
+    "mean_confidence": 0.7861605883737544,
+    "sample_counts": {
+      "total_samples": 50,
+      "true_label_distribution": {
+        "Poor": 7,
+        "Good": 15,
+        "Needs Improvement": 20,
+        "excellent_form": 8
+      },
+      "predicted_label_distribution": {
+        "Poor": 6,
+        "Good": 12,
+        "Needs Improvement": 25,
+        "excellent_form": 7
+      }
+    },
+    "accuracy": 0.0,
+    "mae": null,
+    "mape": null
+  }
+}

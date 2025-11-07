@@ -1,0 +1,589 @@
+{
+  "deadlift": {
+    "exercise": "deadlift",
+    "total_samples": 50,
+    "correct_predictions": 46,
+    "accuracy": 0.92,
+    "precision_weighted": 0.9288888888888889,
+    "recall_weighted": 0.92,
+    "f1_weighted": 0.9216666666666667,
+    "precision_per_class": {
+      "Good": 1.0,
+      "Needs Improvement": 0.8888888888888888,
+      "Poor": 0.7777777777777778
+    },
+    "recall_per_class": {
+      "Good": 0.92,
+      "Needs Improvement": 0.8888888888888888,
+      "Poor": 1.0
+    },
+    "f1_per_class": {
+      "Good": 0.9583333333333334,
+      "Needs Improvement": 0.8888888888888888,
+      "Poor": 0.875
+    },
+    "confusion_matrix": [
+      [
+        23,
+        2,
+        0
+      ],
+      [
+        0,
+        16,
+        2
+      ],
+      [
+        0,
+        0,
+        7
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "Good",
+      "Needs Improvement",
+      "Poor"
+    ],
+    "classification_report": {
+      "Good": {
+        "precision": 1.0,
+        "recall": 0.92,
+        "f1-score": 0.9583333333333334,
+        "support": 25.0
+      },
+      "Needs Improvement": {
+        "precision": 0.8888888888888888,
+        "recall": 0.8888888888888888,
+        "f1-score": 0.8888888888888888,
+        "support": 18.0
+      },
+      "Poor": {
+        "precision": 0.7777777777777778,
+        "recall": 1.0,
+        "f1-score": 0.875,
+        "support": 7.0
+      },
+      "accuracy": 0.92,
+      "macro avg": {
+        "precision": 0.8888888888888888,
+        "recall": 0.9362962962962963,
+        "f1-score": 0.9074074074074074,
+        "support": 50.0
+      },
+      "weighted avg": {
+        "precision": 0.9288888888888889,
+        "recall": 0.92,
+        "f1-score": 0.9216666666666667,
+        "support": 50.0
+      }
+    },
+    "true_distribution": {
+      "Needs Improvement": 18,
+      "Good": 25,
+      "Poor": 7
+    },
+    "pred_distribution": {
+      "Needs Improvement": 18,
+      "Good": 23,
+      "Poor": 9
+    },
+    "predictions": [
+      "Needs Improvement",
+      "Good",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Poor",
+      "Good",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Poor",
+      "Poor",
+      "Needs Improvement",
+      "Poor",
+      "Poor",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Good",
+      "Poor",
+      "Good",
+      "Poor",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Good",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Good",
+      "Good",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Poor",
+      "Good",
+      "Poor",
+      "Needs Improvement",
+      "Good"
+    ],
+    "true_labels": [
+      "Needs Improvement",
+      "Good",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Poor",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Poor",
+      "Poor",
+      "Needs Improvement",
+      "Poor",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Good",
+      "Poor",
+      "Good",
+      "Poor",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Good",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Good",
+      "Good",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Poor",
+      "Needs Improvement",
+      "Good"
+    ]
+  },
+  "squat": {
+    "exercise": "squat",
+    "total_samples": 50,
+    "correct_predictions": 41,
+    "accuracy": 0.82,
+    "precision_weighted": 0.8154022988505747,
+    "recall_weighted": 0.82,
+    "f1_weighted": 0.817277192982456,
+    "precision_per_class": {
+      "Good": 0.896551724137931,
+      "Needs Improvement": 0.6666666666666666,
+      "Poor": 0.7777777777777778
+    },
+    "recall_per_class": {
+      "Good": 0.9285714285714286,
+      "Needs Improvement": 0.6153846153846154,
+      "Poor": 0.7777777777777778
+    },
+    "f1_per_class": {
+      "Good": 0.9122807017543859,
+      "Needs Improvement": 0.64,
+      "Poor": 0.7777777777777778
+    },
+    "confusion_matrix": [
+      [
+        26,
+        2,
+        0
+      ],
+      [
+        3,
+        8,
+        2
+      ],
+      [
+        0,
+        2,
+        7
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "Good",
+      "Needs Improvement",
+      "Poor"
+    ],
+    "classification_report": {
+      "Good": {
+        "precision": 0.896551724137931,
+        "recall": 0.9285714285714286,
+        "f1-score": 0.9122807017543859,
+        "support": 28.0
+      },
+      "Needs Improvement": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6153846153846154,
+        "f1-score": 0.64,
+        "support": 13.0
+      },
+      "Poor": {
+        "precision": 0.7777777777777778,
+        "recall": 0.7777777777777778,
+        "f1-score": 0.7777777777777778,
+        "support": 9.0
+      },
+      "accuracy": 0.82,
+      "macro avg": {
+        "precision": 0.780332056194125,
+        "recall": 0.773911273911274,
+        "f1-score": 0.7766861598440545,
+        "support": 50.0
+      },
+      "weighted avg": {
+        "precision": 0.8154022988505747,
+        "recall": 0.82,
+        "f1-score": 0.817277192982456,
+        "support": 50.0
+      }
+    },
+    "true_distribution": {
+      "Needs Improvement": 13,
+      "Good": 28,
+      "Poor": 9
+    },
+    "pred_distribution": {
+      "Good": 29,
+      "Needs Improvement": 12,
+      "Poor": 9
+    },
+    "predictions": [
+      "Good",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Poor",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Good",
+      "Good",
+      "Good",
+      "Good",
+      "Good",
+      "Poor",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Poor",
+      "Good",
+      "Poor",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Poor",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Poor",
+      "Good",
+      "Good",
+      "Poor",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Good",
+      "Good",
+      "Poor",
+      "Needs Improvement",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Needs Improvement",
+      "Poor",
+      "Good",
+      "Good"
+    ],
+    "true_labels": [
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Good",
+      "Poor",
+      "Poor",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Good",
+      "Good",
+      "Poor",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Poor",
+      "Good",
+      "Poor",
+      "Needs Improvement",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Poor",
+      "Good",
+      "Good",
+      "Poor",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Poor",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Needs Improvement",
+      "Poor",
+      "Needs Improvement",
+      "Good"
+    ]
+  },
+  "bench": {
+    "exercise": "bench",
+    "total_samples": 50,
+    "correct_predictions": 37,
+    "accuracy": 0.74,
+    "precision_weighted": 0.7736375661375662,
+    "recall_weighted": 0.74,
+    "f1_weighted": 0.7421995399654975,
+    "precision_per_class": {
+      "Good": 0.875,
+      "Needs Improvement": 0.6296296296296297,
+      "Poor": 0.8571428571428571
+    },
+    "recall_per_class": {
+      "Good": 0.6666666666666666,
+      "Needs Improvement": 0.85,
+      "Poor": 0.6666666666666666
+    },
+    "f1_per_class": {
+      "Good": 0.7567567567567568,
+      "Needs Improvement": 0.723404255319149,
+      "Poor": 0.75
+    },
+    "confusion_matrix": [
+      [
+        14,
+        7,
+        0
+      ],
+      [
+        2,
+        17,
+        1
+      ],
+      [
+        0,
+        3,
+        6
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "Good",
+      "Needs Improvement",
+      "Poor"
+    ],
+    "classification_report": {
+      "Good": {
+        "precision": 0.875,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.7567567567567568,
+        "support": 21.0
+      },
+      "Needs Improvement": {
+        "precision": 0.6296296296296297,
+        "recall": 0.85,
+        "f1-score": 0.723404255319149,
+        "support": 20.0
+      },
+      "Poor": {
+        "precision": 0.8571428571428571,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.75,
+        "support": 9.0
+      },
+      "accuracy": 0.74,
+      "macro avg": {
+        "precision": 0.787257495590829,
+        "recall": 0.7277777777777777,
+        "f1-score": 0.743387004025302,
+        "support": 50.0
+      },
+      "weighted avg": {
+        "precision": 0.7736375661375662,
+        "recall": 0.74,
+        "f1-score": 0.7421995399654975,
+        "support": 50.0
+      }
+    },
+    "true_distribution": {
+      "Good": 21,
+      "Poor": 9,
+      "Needs Improvement": 20
+    },
+    "pred_distribution": {
+      "Good": 16,
+      "Needs Improvement": 27,
+      "Poor": 7
+    },
+    "predictions": [
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Good",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Poor",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Poor",
+      "Needs Improvement",
+      "Poor",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Poor",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Good",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Good",
+      "Needs Improvement",
+      "Poor",
+      "Poor",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Poor",
+      "Needs Improvement",
+      "Needs Improvement"
+    ],
+    "true_labels": [
+      "Good",
+      "Poor",
+      "Good",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Poor",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Poor",
+      "Good",
+      "Good",
+      "Good",
+      "Poor",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Good",
+      "Needs Improvement",
+      "Poor",
+      "Good",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Poor",
+      "Poor",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Good",
+      "Poor",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Needs Improvement",
+      "Good",
+      "Good",
+      "Needs Improvement",
+      "Poor",
+      "Needs Improvement",
+      "Good"
+    ]
+  },
+  "summary": {
+    "evaluation_timestamp": "20250714_154030",
+    "total_exercises_evaluated": 3,
+    "average_accuracy": 0.8266666666666667,
+    "average_precision": 0.8393095846256765,
+    "average_recall": 0.8266666666666667,
+    "average_f1": 0.8270477998715401
+  }
+}
