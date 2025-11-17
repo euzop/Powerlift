@@ -2,6 +2,8 @@
 
 Real-time, feedback-driven exercise form assessment for strength training.
 
+![Image Alt]([image_url](https://github.com/euzop/Powerlift/blob/2bf9a27d1147b4edbcc3b0ddcee077dcdc57b2bf/powerlift-screenshot.png))
+
 PowerLift analyzes short workout videos to provide per-rep form feedback for deadlift, squat and bench press. The system uses a lightweight pose-estimation model to extract joint keypoints and exercise-specific Multi-Class SVM (MCSVM) classifiers to label repetitions as **Good**, **Needs Improvement** or **Poor**. User corrections are stored and used to retrain and improve the models.
 
 ---
