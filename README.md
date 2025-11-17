@@ -8,13 +8,14 @@ PowerLift analyzes short workout videos to provide per-rep form feedback for dea
 
 ---
 
-**Techstack (high-level)**
+**Techstack**
 - Frontend: Expo / React Native (TypeScript)
 - Backend: Python (Flask / FastAPI compatible)
 - Pose estimation: TensorFlow Lite / MediaPipe
 - Classifiers: scikit-learn SVM (.pkl model artifacts)
 - Data: JSON feedback files, video uploads
 - Analysis/visualization: numpy, pandas, matplotlib / seaborn
+ - Detection & tracking: YOLOv8 (object/barbell detection), MoveNet (pose/keypoints), Extended Kalman Filter (EKF) for temporal smoothing and tracking
 
 ---
 
@@ -64,8 +65,10 @@ npx expo start
 **How it works (short)**
 1. Mobile app records/uploads short workout videos.  
 2. Backend extracts pose keypoints (TFLite model) and computes biomechanical features.  
-3. Exercise-specific MCSVM models classify each rep into the 3 categories.  
-4. Users can confirm or correct labels; corrections are saved and fed into the retraining pipeline.
+ 3. Barbell and body tracking: YOLOv8 detects and localizes the barbell, MoveNet/Mediapipe extracts body keypoints, and an EKF smooths/tracks temporal movement. The system highlights detected errors by changing joint colors in the annotated output.
+ 4. The pipeline produces an annotated video, a radar chart summarizing per-metric scores, and a numeric form score for each rep.
+ 5. Exercise-specific MCSVM models classify each rep into the 3 categories.  
+ 6. Users can confirm or correct labels; corrections are saved and fed into the retraining pipeline.
 
 ---
 
@@ -84,5 +87,3 @@ The repo includes scripts that compute accuracy, precision, recall, F1-score and
 **Contributing**
 - Add new exercises by providing annotated training data and adding a new exercise-specific model.  
 - Use `Powerlift-Backend/MCSVM/` scripts to generate feedback batches and compute evaluation metrics.
-
-
