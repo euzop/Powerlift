@@ -65,7 +65,7 @@ npx expo start
 **How it works (short)**
 1. Mobile app records/uploads short workout videos.  
 2. Backend extracts pose keypoints (TFLite model) and computes biomechanical features.  
- 3. Barbell and body tracking: YOLOv8 detects and localizes the barbell, MoveNet/Mediapipe extracts body keypoints, and an EKF smooths/tracks temporal movement. The system highlights detected errors by changing joint colors in the annotated output.
+ 3. Barbell and body tracking: YOLOv8 detects and localizes the barbell, MoveNet extracts body keypoints, and an EKF smooths/tracks temporal movement. The system highlights detected errors by changing joint colors in the annotated output.
  4. The pipeline produces an annotated video, a radar chart summarizing per-metric scores, and a numeric form score for each rep.
  5. Exercise-specific MCSVM models classify each rep into the 3 categories.  
  6. Users can confirm or correct labels; corrections are saved and fed into the retraining pipeline.
