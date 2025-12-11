@@ -11,7 +11,7 @@ PowerLift analyzes short workout videos to provide per-rep form feedback for dea
 **Techstack**
 - Frontend: Expo / React Native (TypeScript)
 - Backend: Python (Flask / FastAPI compatible)
-- Pose estimation: TensorFlow Lite / MediaPipe
+- Pose estimation: TensorFlow Lite / Movenet
 - Classifiers: scikit-learn SVM (.pkl model artifacts)
 - Data: JSON feedback files, video uploads
 - Analysis/visualization: numpy, pandas, matplotlib / seaborn
